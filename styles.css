@@ -1,0 +1,44 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+      outline: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+      outline: none;
+}
+
+h1 {
+padding-top: 20px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.wrapper {
+	font-family: "Lucida Console", "Courier New", monospace;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px; /* Optional gap between paragraphs */
+  /* border: 1px solid black; */
+}
+
+
+.paragraph {
+  font-family: "Lucida Console", "Courier New", monospace;
+  align-items: center;
+  background-color:#0E1621; /* Optional styling for the paragraphs */
+  padding: 20%;
+  padding-top: 20%;
+  /*border: 1px solid black; */
+}
+
+.paragrapha {
+  /* Optional styling for the paragraphs */
+  background-color:#0E1621;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 20px;
+  /*border: 1px solid black; */
+}
